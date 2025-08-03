@@ -1,16 +1,6 @@
 # Tarea Final del Curso "Getting and Cleaning Data"
 #
-# Este script realiza los siguientes pasos:
-# 1. Descarga y descomprime el conjunto de datos.
-# 2. Une los conjuntos de entrenamiento y de prueba para crear un único conjunto de datos.
-# 3. Extrae solo las mediciones de la media y la desviación estándar.
-# 4. Usa nombres de actividad descriptivos para nombrar las actividades.
-# 5. Etiqueta apropiadamente el conjunto de datos con nombres de variables descriptivos.
-# 6. A partir del conjunto de datos del paso 5, crea un segundo conjunto de datos ordenado (tidy)
-#    con el promedio de cada variable para cada actividad y cada sujeto.
-# ----------------------------------------------------------------------------------
-
-# Cargar las librerías necesarias. dplyr es esencial para los pasos finales.
+## Cargar las librerías necesarias. dplyr es esencial para los pasos finales.
 # Si no la tienes instalada, primero ejecuta: 
 install.packages("dplyr")
 library(dplyr)
